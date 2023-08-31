@@ -76,5 +76,16 @@ public class Main {
             }
             System.out.println("for "+i6);
         }
+
+        for(int i8 = 1; i8 < 3; i8++)
+        {
+            switch (i8)
+            {
+                default:
+                    System.out.printf("i = %d \n", i8++);
+                    break;
+            }
+        }
+
     }
 }
